@@ -1,0 +1,206 @@
+#navigation {
+  padding-bottom: 5px;
+  font-size: 12px;
+  max-height: 70px;
+  border-bottom: 3px solid #404040;
+}
+#brand a {
+  color: white;
+  font-size: 25px;
+  padding-top: 20px;
+  letter-spacing: 3px;
+}
+#email,
+#account-password {
+  height: 4px;
+  width: 180px;
+  padding: 2px;
+}
+#navform li {
+  color: white;
+  padding: 5px;
+}
+#myCarousel {
+  margin-top: 75px;
+  border: 10px solid #404040;
+  border-style: ridge;
+}
+.carousel img {
+  width: 1200px;
+  height: 500px;
+}
+#pic {
+  color: white;
+  border: 3px solid #404040;
+  border-radius: 3px;
+  border-style: ridge;
+  padding: 3px;
+}
+h2 {
+  text-align: center;
+}
+#offers {
+  padding-top: 00px;
+  color: white;
+}
+#buttons {
+  padding-top: 50px;
+}
+#buttons .btn {
+  height: 50px;
+  width: 250px;
+}
+/*dark background to support form theme*/
+body {
+  background-image: url("/resources/images/misc/dark_wall.png");
+}
+.modal-content {
+  background: url("/resources/images/misc/dark_wall.png");
+}
+/*sass variables used*/
+/*site container*/
+.wrapper {
+  width: 420px;
+  margin: 0 auto;
+}
+#bookbtn {
+  text-allign: center;
+  margin-left: 450px;
+}
+h1 {
+  text-align: center;
+  padding: 30px 0px 0px 0px;
+  font: 25px Oswald;
+  color: white;
+  text-transform: uppercase;
+  text-shadow: #000 0px 1px 5px;
+  margin: 0px;
+}
+p {
+  font: 13px Open Sans;
+  color: #6E6E6E;
+  text-shadow: #000 0px 1px 5px;
+  margin-bottom: 30px;
+}
+.form {
+  width: 100%;
+}
+select {
+  width: 98%;
+  height: 50px;
+  border-radius: 5px;
+  box-shadow: inset 4px 6px 10px -4px rgba(0, 0, 0, 0.3), 0 1px 1px -1px rgba(255, 255, 255, 0.3);
+  background: rgba(0, 0, 0, 0.2);
+  outline: none;
+  border: none;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  color: #6E6E6E;
+  text-shadow: #000 0px 1px 5px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="date"] {
+  width: 98%;
+  padding: 15px 0px 15px 8px;
+  border-radius: 5px;
+  box-shadow: inset 4px 6px 10px -4px rgba(0, 0, 0, 0.3), 0 1px 1px -1px rgba(255, 255, 255, 0.3);
+  background: rgba(0, 0, 0, 0.2);
+  outline: none;
+  border: none;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  color: #6E6E6E;
+  text-shadow: #000 0px 1px 5px;
+}
+input[type="submit"] {
+  width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#28D2DE), to(#1A878F));
+  background-image: -webkit-linear-gradient(#28D2DE 0%, #1A878F 100%);
+  background-image: -moz-linear-gradient(#28D2DE 0%, #1A878F 100%);
+  background-image: -o-linear-gradient(#28D2DE 0%, #1A878F 100%);
+  background-image: linear-gradient(#28D2DE 0%, #1A878F 100%);
+  font: 14px Oswald;
+  color: #FFF;
+  text-transform: uppercase;
+  text-shadow: #000 0px 1px 5px;
+  border: 1px solid #000;
+  opacity: 0.7;
+  -webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.7);
+  border-top: 1px solid rgba(255, 255, 255, 0.8) !important;
+  -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(50%, transparent), to(rgba(255, 255, 255, 0.2)));
+}
+input:focus {
+  box-shadow: inset 4px 6px 10px -4px rgba(0, 0, 0, 0.7), 0 1px 1px -1px rgba(255, 255, 255, 0.3);
+  background: rgba(0, 0, 0, 0.3);
+  -webkit-transition: 1s ease;
+  -moz-transition: 1s ease;
+  -o-transition: 1s ease;
+  -ms-transition: 1s ease;
+  transition: 1s ease;
+}
+input[type="submit"]:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.optimize {
+  position: fixed;
+  right: 3%;
+  top: 0px;
+}
+
+#sidebar-wrapper {
+  top: 52px;
+  left: -200px;
+  width: 200px;
+  background-color: #5677fc;
+  color: white;
+  position: fixed;
+  height: 100%;
+  z-index: 1;
+}
+.sidebar-nav {
+  position: absolute;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  list-style: none;
+}
+.sidebar-nav li {
+  text-indent: 20px;
+  line-height: 50px;
+}
+.sidebar-nav li a {
+  color: white;
+  display: block;
+  text-decoration: none;
+}
+.sidebar-nav li a:hover {
+  background: rgba(255,255,255,0.25);
+  color: white;
+  text-decoration: none;
+}
+.sidebar-nav li a:active, .sidebar-nav li a:focus {
+  text-decoration: none;
+}
+#sidebar-wrapper.sidebar-toggle {
+  transition: all 0.3s ease-out;
+  margin-left: -200px;
+}
+@media (min-width: 768px) {
+  #sidebar-wrapper.sidebar-toggle {
+    transition: 0s;
+    left: 200px;
+  }
+}
+.modal-dialog {width:600px;}
+.thumbnail {margin-bottom:6px;}
